@@ -3,6 +3,7 @@ const path = require('path')
 const dirpath = path.join(__dirname, 'crud')
 // console.log(dirpath)
 const filepath = `${dirpath}/test.txt`
+
 // create a file
 fs.writeFileSync(filepath, 'this is a simple text file')
 
