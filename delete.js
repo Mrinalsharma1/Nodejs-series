@@ -1,7 +1,7 @@
 const db = require('./db')
 
 const delet = async () => {
-    const con = await db()
+    const con =  db()
     let result = await con.deleteMany({ name: 'note 44 max' })
     console.log(result)
     if (result.acknowledged) {
