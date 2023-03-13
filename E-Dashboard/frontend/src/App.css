@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font Style Links */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.footerTitle {
+  font-family: 'Tilt Neon', cursive;
+}
+
+.sliders {
+  text-align: center;
+  margin-top: 62px;
+  font-family: 'Caveat', cursive;
+}
+
+.item img {
+  height: 250px;
+}
+
+/* signup page code */
+.signupImg img {
+  height: 140px;
+  width: 100%;
+}
+
+.signupForm button {
+  background-color: #01d28e;
+}
+
+.signupForm .signupbtn {
+  text-decoration: none;
+}
+
+.signupBox .social p:hover {
+  border-radius: 50%;
+  cursor: pointer;
+  color: #01d28e;
+
+}
